@@ -4,7 +4,8 @@
 		"typescriptreact",
 		"json",
 		"javascriptreact",
-		"typescript.tsx"
+		"typescript.tsx",
+		"python"
 	],
 	"eslint.filetypes": [
 		"javascript",
@@ -13,5 +14,7 @@
 		"javascriptreact",
 		"typescript.tsx"
 	],
-	"coc.preferences.diagnostic.virtualText": true
+	"coc.preferences.diagnostic.virtualText": true,
+	"python.formatting.provider":"black",
+	"python.linting.mypyEnabled": true
 }

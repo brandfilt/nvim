@@ -26,6 +26,7 @@ Plug 'jiangmiao/auto-pairs'
 
 Plug 'hylang/vim-hy'
 Plug 'psf/black'
+Plug 'integralist/vim-mypy'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
   let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver']
@@ -69,6 +70,9 @@ augroup END
 map <C-n> :NERDTreeToggle<CR>
 nnoremap <Tab> :bnext<CR>
 nnoremap <S-Tab> :bprevious<CR>
+
+nnoremap <S-T> :Files<CR>
+nnoremap <C-T> :Ag<CR>
 
 " let g:closetag_xhtml_filetypes = 'xhtml,javascript.jsx,jsx,javascript'
 " let g:closetag_xhtml_filetypes = 'xhtml,jsx'
